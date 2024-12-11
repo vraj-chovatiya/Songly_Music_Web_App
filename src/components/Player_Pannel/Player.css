@@ -1,0 +1,104 @@
+.player-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f8f9fa;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 1000;
+  }
+  
+  .song-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .album-art {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .song-info h4,
+  .song-info p {
+    margin: 0;
+    color: #333;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .controls button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .controls button:hover {
+    color: #6e8efb;
+  }
+  
+  .progress-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .progress-bar .time-stamp{
+    width: 150px;
+  }
+  
+  .progress-bar input[type="range"] {
+    width: 200px;
+  }
+  
+  .controls button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+  
+  .controls button:hover {
+    color: #6e8efb;
+  }
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Spacing between buttons */
+  }
+  
+  .controls button {
+    background: none;
+    border: none;
+    font-size: 1.8rem; /* Increase icon size */
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    transition: color 0.3s ease;
+  }
+  
+  .controls button:hover {
+    color: #6e8efb; /* Highlight color on hover */
+  }
+  
+  .progress-bar input[type="range"] {
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

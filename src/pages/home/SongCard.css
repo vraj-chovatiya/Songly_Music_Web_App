@@ -1,0 +1,11 @@
+.play-button{
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    /* background: lightgreen; */
+    background: linear-gradient(135deg, #6e8efb, #7ee377);
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+}

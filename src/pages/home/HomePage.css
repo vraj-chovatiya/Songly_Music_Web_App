@@ -1,0 +1,97 @@
+.homepage-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero-section {
+    text-align: center;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    padding: 50px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color: #ffd700;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .song-search-container {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .song-search-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .search-bar input {
+    padding: 10px;
+    margin-right: 20px;
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #3333337d;
+}
+  
+  .search-bar button {
+    padding: 10px 20px;
+    background-color: #6e8efb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .song-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+  }
+  
+  .song-card {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+  }
+  
+  .song-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .song-card h3 {
+    margin: 10px 0 5px;
+    font-size: 0.9rem;
+    color: rgb(98, 98, 98);
+  }
+  
+  .song-card a {
+    text-decoration: none;
+    color: #6e8efb;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1rem;
+  }  
